@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  testproject:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./TestProject/TestResults:/app/TestProject/TestResults
+    command: ["dotnet", "test", "--collect:XPlat Code Coverage"]

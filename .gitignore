@@ -1,0 +1,36 @@
+*/bin
+*/obj
+# Ignore build outputs
+*.dll
+*.exe
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.csproj.user
+*.fsproj.user
+
+# Ignore package manager directories
+packages/
+node_modules/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.lock
+*.cache
+*.DS_Store
+*.swp
+*.bak
+*.orig
+*.rej
+
+TestProject/coveragereport
